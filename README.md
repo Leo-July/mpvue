@@ -1,13 +1,15 @@
 # 小程序
 
-1、去掉 button 默认 border
+1、 button 
+ * 默认 border
 
-```css
-.button::after {
-  border: none;
-}
-```
-
+  ```css
+  .button::after {
+    border: none;
+  }
+  ```
+  * 添加`hover-class`无效果
+    99%因为样式的权重问题
 # mpvue
 
 1、button 获取手机号
